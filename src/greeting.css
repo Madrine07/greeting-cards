@@ -1,9 +1,13 @@
+
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center;     
+  align-items: center;         
+  height: 100vh;               
   gap: 20px;
   padding: 20px;
+  background-color: #fafafa;
 }
 
 .card {
@@ -11,8 +15,9 @@
   padding: 15px;
   width: 220px;
   text-align: center;
-  background-color: #fff;
+  background-color: #f5f5f5;
   border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
 .card h2 {
